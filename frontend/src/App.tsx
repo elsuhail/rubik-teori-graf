@@ -63,7 +63,7 @@ function App() {
   
   // Custom WebSocket hook implementation
   const wsRef = useRef<WebSocket | null>(null);
-  const reconnectTimeoutRef = useRef<NodeJS.Timeout>();
+  const reconnectTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [streamKey, setStreamKey] = useState(Date.now());
 
   useEffect(() => {

@@ -1,5 +1,4 @@
 import { create } from 'zustand';
-// @ts-expect-error
 import '../lib/cubejs/cube.js';
 import '../lib/cubejs/solve.js';
 const Cube = (typeof window !== "undefined" && (window as any).Cube);
