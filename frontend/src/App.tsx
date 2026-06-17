@@ -207,7 +207,7 @@ function App() {
           <div className="bg-white/70 backdrop-blur-md shadow-sm border border-slate-200 rounded-2xl p-5 w-72 pointer-events-auto">
             <h1 className="text-xl font-bold text-slate-800 flex items-center gap-2">
               <BrainCircuit className="text-primary" />
-              Rubik
+              Kelompok Nabil
             </h1>
             <p className="text-sm text-slate-500 mt-1">
               
